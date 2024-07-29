@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="all">
-      <div class="logo">
-        <img class="picture" src="./img/logo.png" alt="greenshop logo" />
-        <span class="central_sections">
-          <a class="info"> <b>Home</b></a>
-          <a class="info">Shop</a>
-          <a class="info">Plant Care</a>
-          <a class="info">Blogs</a>
-        </span>
-        <button class="green_button">
-          <img class="icon" src="./img/logout.png" alt="logoout" />
-          <a class="name_login">Login</a>
-        </button>
-      </div>
-    </header>
-    <main>
+    <div class="wrapper">
+      <header class="all">
+        <div class="logo">
+          <img class="picture" src="./img/logo.png" alt="greenshop logo" />
+          <nav class="nav">
+            <a href="#" class="active"> Home </a>
+            <a href="#">Shop</a>
+            <a href="#">Plant Care</a>
+            <a href="#">Blogs</a>
+          </nav>
+          <button class="btn_login_btn">
+            <img class="login" src="./img/btn.svg" alt="logoout" />
+            <span></span>
+          </button>
+        </div>
+      </header>
+
       <section class="background_greenshop">
         <div class="text_info">
           <p class="welcome">Welcome to GreenShop</p>
@@ -43,6 +44,6 @@
           />
         </div>
       </section>
-    </main>
+    </div>
   </body>
 </html>
