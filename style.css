@@ -3,13 +3,14 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.body {
+body {
   max-width: 1200px;
   margin: 0 auto;
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  font-family: "Cera-Pro";
 }
 .wrapper {
   width: 1200px;
