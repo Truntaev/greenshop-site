@@ -142,3 +142,145 @@ body {
   position: absolute;
   padding: 280px 0px 0px 0px;
 }
+
+/* FLEX */
+
+.block {
+  max-width: 1200px;
+  height: 480px;
+  display: flex;
+}
+.left {
+  width: 585px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fbfbfb;
+  margin: 69px 0px 0px 0px;
+}
+.photo {
+  width: 290px;
+  height: 280px;
+  margin-top: -2.5rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.bold {
+  width: 150px;
+  height: 48px;
+  text-align: end;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.more_text {
+  width: 290px;
+  height: 45px;
+  color: #727272;
+  font-size: 14px;
+  text-align: end;
+  margin-bottom: 10px;
+}
+.find_more {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  background-color: #46a358;
+  border-radius: 6px;
+  border: solid #46a358;
+}
+.right{
+  width: 585px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fbfbfb;
+  margin: 69px 0px 0px 28px;
+}
+
+.blog_posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.content{
+  text-align: center;
+  font-size: 14px;
+  color: #727272;
+  margin-bottom: 35px;
+}
+.central_block{
+  width: 1200px;
+  height: 447px;
+  display: flex;
+  flex-direction: row;
+}
+.first_photo{
+  width: 268px;
+  height: 350px;
+  margin-right: 44px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FBFBFB;
+}
+.green_text{
+  font-size: 14px;
+  color: #46A358;
+  padding: 8px 0px 4px 15px;
+}
+.cactus{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  padding: 0px 0px 4px 15px;
+}
+.words{
+  width: 250px;
+  height: 44px;
+  font-size: 14px;
+  padding: 0px 11px 9px 15px;
+  color: #727272;
+}
+.read_more{
+  width: 100px;
+  height: 18px;
+  padding: 0px 0px 12px 15px;
+  background-color: white;
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+}
+.second_photo{
+  width: 268px;
+  height: 350px;
+  margin-right: 44px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FBFBFB;
+}
+.third_photo{
+  width: 268px;
+  height: 350px;
+  margin-right: 44px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FBFBFB;
+}
+.fourth_photo{
+  width: 268px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FBFBFB;
+}
