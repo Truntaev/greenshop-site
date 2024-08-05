@@ -197,7 +197,7 @@ body {
   border-radius: 6px;
   border: solid #46a358;
 }
-.right{
+.right {
   width: 585px;
   height: 250px;
   display: flex;
@@ -206,7 +206,7 @@ body {
   margin: 69px 0px 0px 28px;
 }
 
-.blog_posts{
+.blog_posts {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -214,45 +214,45 @@ body {
   font-size: 30px;
   margin-bottom: 15px;
 }
-.content{
+.content {
   text-align: center;
   font-size: 14px;
   color: #727272;
   margin-bottom: 35px;
 }
-.central_block{
+.central_block {
   width: 1200px;
   height: 447px;
   display: flex;
   flex-direction: row;
 }
-.first_photo{
+.first_photo {
   width: 268px;
   height: 350px;
   margin-right: 44px;
   display: flex;
   flex-direction: column;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
-.green_text{
+.green_text {
   font-size: 14px;
-  color: #46A358;
+  color: #46a358;
   padding: 8px 0px 4px 15px;
 }
-.cactus{
+.cactus {
   width: 200px;
   height: 50px;
   font-size: 20px;
   padding: 0px 0px 4px 15px;
 }
-.words{
+.words {
   width: 250px;
   height: 44px;
   font-size: 14px;
   padding: 0px 11px 9px 15px;
   color: #727272;
 }
-.read_more{
+.read_more {
   width: 100px;
   height: 18px;
   padding: 0px 0px 12px 15px;
@@ -261,26 +261,160 @@ body {
   display: flex;
   justify-content: center;
 }
-.second_photo{
+.second_photo {
   width: 268px;
   height: 350px;
   margin-right: 44px;
   display: flex;
   flex-direction: column;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
-.third_photo{
+.third_photo {
   width: 268px;
   height: 350px;
   margin-right: 44px;
   display: flex;
   flex-direction: column;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
-.fourth_photo{
+.fourth_photo {
   width: 268px;
   height: 350px;
   display: flex;
   flex-direction: column;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
+}
+
+/* POSITION */
+
+header {
+  width: 840px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  padding: 170px 0px 0px 0px;
+}
+a:hover{
+  color: orange;
+}
+.all_plants {
+  color: #46a358;
+  font-size: 15px;
+  margin-right: 38px;
+}
+.shop {
+  font-size: 15px;
+  color: #3d3d3d;
+  margin-right: 38px;
+  text-decoration: none;
+}
+.online_shop {
+  font-size: 15px;
+  color: #3d3d3d;
+  text-decoration: none;
+}
+.shops {
+  margin-right: 360px;
+  text-decoration: none;
+  color: #3d3d3d;
+}
+.arrow_down {
+  margin-bottom: -5px;
+}
+.center_box {
+  padding: 31px 105px 101px 0px;
+  max-width: 840px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+.first_block {
+  width: 260px;
+  height: 260px;
+  background-color: #fbfbfb;
+  position: relative;
+  margin-right: 34px;
+  display: flex;
+  flex-direction: column;
+}
+.nammee {
+  display: flex;
+  flex-direction: column;
+}
+.cactus_photo {
+  border-top: 3px solid #46a358;
+  width: 250px;
+  height: 250px;
+  padding: 31px 4px 19px 4px;
+}
+.cactus_picture {
+  width: 250px;
+  height: 250px;
+  padding: 31px 4px 19px 4px;
+}
+.barberton {
+  padding: 20px 0px 6px 0px;
+  width: 160px;
+  font-size: 16px;
+  color: #3d3d3d;
+  display: flex;
+  align-items: flex-end;
+}
+.price {
+  text-decoration: none;
+  color: #46a358;
+}
+.second_block {
+  width: 260px;
+  height: 260px;
+  background-color: #fbfbfb;
+  position: relative;
+  margin-right: 34px;
+  display: flex;
+  flex-direction: column;
+}
+.three_logos {
+  width: 250px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mini_logo {
+  width: 35px;
+  height: 35px;
+  padding: 0px 15px 0px 0px;
+  margin-top: -35px;
+  margin-left: 8px;
+}
+
+.third_block {
+  width: 260px;
+  height: 260px;
+  background-color: #fbfbfb;
+  position: relative;
+  margin-right: 34px;
+  display: flex;
+  flex-direction: column;
+}
+.african {
+  padding: 238px 0px 6px 0px;
+  width: 250px;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+.flowers_photo {
+  width: 250px;
+  height: 250px;
+  padding: 31px 4px 19px 4px;
+  position: absolute;
+}
+
+.procent {
+  width: 80px;
+  height: 30px;
+  display: flex;
+}
+.dollars {
+  margin-left: 16px;
 }
