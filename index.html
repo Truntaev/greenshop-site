@@ -3,61 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./fonts.css" rel="stylesheet" />
+    <title>Registration</title>
     <link rel="stylesheet" href="./style.css" />
-    <title>Position</title>
   </head>
   <body>
-    <section>
-      <header>
-        <nav>
-          <a class="all_plants" href>All Plants</a>
-          <a class="shop" href>New Arrivals</a>
-          <a class="shops" href>Sale</a>
-          <a class="online_shop" href>Short by:</a>
-          <a class="online_shop" href>Default sorting</a>
-          <img class="arrow_down" src="./img/arrow_down.png" alt="arrow" />
-        </nav>
-      </header>
-      <div class="center_box">
-        <div class="first_block">
-          <img class="cactus_picture" src="./img/flower_1.png" alt="cactus" />
-          <p class="barberton">Barberton Daisy</p>
-          <nav>
-            <a class="price" href="#">$119.00</a>
-          </nav>
-        </div>
-
-        <div class="second_block">
-          <img class="cactus_photo" src="./img/flower_2.png" alt="plants" />
-          <div class="three_logos">
-            <img
-              class="mini_logo"
-              src="./img/shopping_vector.svg"
-              alt="shopping vector"
-            />
-            <img class="mini_logo" src="./img/love_vector.svg" alt="vector" />
-            <img class="mini_logo" src="./img/search_vector.svg" alt="vector" />
-          </div>
-          <p class="barberton">Angel Wing Begonia</p>
-          <nav>
-            <a class="price" href="#">$169.00</a>
-          </nav>
-        </div>
-
-        <div class="third_block">
-          <img class="flowers_photo" src="./img/flower_3.png" alt="plants" />
-          <img class="procent" src="./img/off.png" alt="procent" />
-          <p class="african">African Violet</p>
-          <nav>
-            <a class="price" href="#"
-              >$199.00
-              <span class="dollars">
-                <img src="./img/price.png" alt="price" /> </span
-            ></a>
-          </nav>
-        </div>
+    <header class="all">
+      <div class="logo">
+        <img class="picture" src="./img/logo.png" alt="greenshop logo" />
+        <span class="central_sections">
+          <a class="info"> <b>Home</b></a>
+          <a class="info">Shop</a>
+          <a class="info">Plant Care</a>
+          <a class="info">Blogs</a>
+        </span>
+        <button class="green_button">
+          <img class="icon" src="./img/logout.png" alt="logoout" />
+          <a class="name_login">Login</a>
+        </button>
       </div>
-    </section>
+    </header>
+    <main>
+      <section class="background_greenshop">
+        <div class="text_info">
+          <p class="welcome">Welcome to GreenShop</p>
+          <h1 class="better_planet">LET'S MAKE A BETTER <span>PLANET</span></h1>
+          <p class="about_online_shop">
+            We are an online plant shop offering a wide range of cheap and
+            trendy plants. Use our plants to create an unique Urban Jungle.
+            Order your favorite plants!
+          </p>
+          <button class="green_button">SHOP NOW</button>
+        </div>
+        <div class="flowers">
+          <img src="./img/big_flower.png" alt="big flower" />
+          <img
+            class="small_flower"
+            src="./img/small_flower.png"
+            alt="small flower"
+          />
+        </div>
+      </section>
+    </main>
   </body>
 </html>

@@ -1,89 +1,50 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
 }
-body {
-  max-width: 840px;
-  margin: 0 auto;
+.body {
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   font-family: "Cera-Pro";
 }
-.wrapper {
+.all{
   width: 1200px;
-  margin: 0 auto;
-  height: 100vh;
+  height: 55px;
+  padding: 5px 0px;
 }
-.btn {
-  display: inline-block;
-  width: 100px;
-  font-size: 16px;
-  background-color: #46a358;
-  color: white;
-  padding: 8px 16px;
-  border: solid 1px #46a358;
-  border-radius: 6px;
-  img {
-    vertical-align: middle;
-  }
-}
-.btn_login_btn {
-  width: 20px;
-  height: 20px;
-}
-.all {
-  display: inline-block;
-  padding-top: 30px;
-  border-bottom: 0.3px solid #46a358;
-  width: 1200px;
-}
-.nav {
-  font-size: 16px;
-  display: inline-block;
-  width: calc(100% - 250px);
-  text-align: center;
-  padding-right: 150px;
-  a {
-    padding-bottom: 28px;
-    text-decoration: none;
-    color: black;
-    font-weight: 400;
-  }
-  a:not(:last-child) {
-    margin-right: 50px;
-  }
-  a.active {
-    font-weight: bold;
-    border-bottom: 3px solid #46a358;
-    padding: 0px 0px 33px 0px;
-  }
-}
-.login {
-  width: 100px;
-  height: 35px;
-  margin-left: -5px;
-  margin-top: -1px;
-}
-.picture {
-  width: 150px;
-  height: 35px;
-  margin-top: 10px;
+.picture{
+width: 150px;
+height: 35px;
+margin-top: 10px;
 }
 .logo {
-  width: 1170px;
+  width: 1200px;
   height: 55px;
   margin: 30px;
-  display: inline-block;
+  display: inline;
   justify-content: center;
+}
+.central_sections {
+  font-size: 16px;
+  padding: 0px 304px;
 }
 .info {
   color: #3d3d3d;
   margin-right: 20px;
 }
-
+.green_button {
+  width: 100px;
+  height: 35px;
+  background-color: #46a358;
+  color: #ffff;
+  border-radius: 8px;
+  border: 1px solid #46a358;
+}
+.icon{
+  padding: 0px 0px;
+}
 .central_photo {
   margin-right: 20px;
   margin-top: 5px;
@@ -94,30 +55,22 @@ body {
   font-size: 16px;
 }
 .background_greenshop {
-  width: 1200px;
+  width: 1130px;
   height: 450px;
   background-color: #f5f5f580;
+  margin-left: 35px;
   display: flex;
   flex-direction: row;
-  margin-top: 18px;
 }
 .welcome {
   font-size: 14px;
+  line-height: 16px;
   margin-bottom: 5px;
   margin-top: 100px;
   color: #3d3d3d;
 }
 .text_info {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.green_button {
-  width: 140px;
-  height: 40px;
-  background-color: #46a358;
-  border: solid 1px #46a358;
-  border-radius: 6px;
-  color: white;
+  padding: 0px 80px;
 }
 .better_planet {
   width: 530px;
@@ -139,281 +92,8 @@ body {
   flex-direction: row;
 }
 .small_flower {
+  width: 135px;
+  height: 135px;
   position: absolute;
-  padding: 280px 0px 0px 0px;
-}
-
-/* FLEX */
-
-.block {
-  max-width: 1200px;
-  height: 480px;
-  display: flex;
-}
-.left {
-  width: 585px;
-  height: 250px;
-  display: flex;
-  flex-direction: row;
-  background-color: #fbfbfb;
-  margin: 69px 0px 0px 0px;
-}
-.photo {
-  width: 290px;
-  height: 280px;
-  margin-top: -2.5rem;
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  justify-content: center;
-}
-.bold {
-  width: 150px;
-  height: 48px;
-  text-align: end;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-.more_text {
-  width: 290px;
-  height: 45px;
-  color: #727272;
-  font-size: 14px;
-  text-align: end;
-  margin-bottom: 10px;
-}
-.find_more {
-  width: 140px;
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  color: white;
-  background-color: #46a358;
-  border-radius: 6px;
-  border: solid #46a358;
-}
-.right {
-  width: 585px;
-  height: 250px;
-  display: flex;
-  flex-direction: row;
-  background-color: #fbfbfb;
-  margin: 69px 0px 0px 28px;
-}
-
-.blog_posts {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  margin-bottom: 15px;
-}
-.content {
-  text-align: center;
-  font-size: 14px;
-  color: #727272;
-  margin-bottom: 35px;
-}
-.central_block {
-  width: 1200px;
-  height: 447px;
-  display: flex;
-  flex-direction: row;
-}
-.first_photo {
-  width: 268px;
-  height: 350px;
-  margin-right: 44px;
-  display: flex;
-  flex-direction: column;
-  background-color: #fbfbfb;
-}
-.green_text {
-  font-size: 14px;
-  color: #46a358;
-  padding: 8px 0px 4px 15px;
-}
-.cactus {
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  padding: 0px 0px 4px 15px;
-}
-.words {
-  width: 250px;
-  height: 44px;
-  font-size: 14px;
-  padding: 0px 11px 9px 15px;
-  color: #727272;
-}
-.read_more {
-  width: 100px;
-  height: 18px;
-  padding: 0px 0px 12px 15px;
-  background-color: white;
-  border: solid 1px white;
-  display: flex;
-  justify-content: center;
-}
-.second_photo {
-  width: 268px;
-  height: 350px;
-  margin-right: 44px;
-  display: flex;
-  flex-direction: column;
-  background-color: #fbfbfb;
-}
-.third_photo {
-  width: 268px;
-  height: 350px;
-  margin-right: 44px;
-  display: flex;
-  flex-direction: column;
-  background-color: #fbfbfb;
-}
-.fourth_photo {
-  width: 268px;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  background-color: #fbfbfb;
-}
-
-/* POSITION */
-
-header {
-  width: 840px;
-  display: flex;
-  flex-direction: row;
-  padding: 170px 0px 0px 0px;
-}
-a:hover{
-  color: orange;
-}
-.all_plants {
-  color: #46a358;
-  font-size: 15px;
-  margin-right: 38px;
-}
-.shop {
-  font-size: 15px;
-  color: #3d3d3d;
-  margin-right: 38px;
-  text-decoration: none;
-}
-.online_shop {
-  font-size: 15px;
-  color: #3d3d3d;
-  text-decoration: none;
-}
-.shops {
-  margin-right: 360px;
-  text-decoration: none;
-  color: #3d3d3d;
-}
-.arrow_down {
-  margin-bottom: -5px;
-}
-.center_box {
-  padding: 31px 105px 101px 0px;
-  max-width: 840px;
-  height: 350px;
-  display: flex;
-  flex-direction: row;
-}
-.first_block {
-  width: 260px;
-  height: 260px;
-  background-color: #fbfbfb;
-  position: relative;
-  margin-right: 34px;
-  display: flex;
-  flex-direction: column;
-}
-.nammee {
-  display: flex;
-  flex-direction: column;
-}
-.cactus_photo {
-  border-top: 3px solid #46a358;
-  width: 250px;
-  height: 250px;
-  padding: 31px 4px 19px 4px;
-}
-.cactus_picture {
-  width: 250px;
-  height: 250px;
-  padding: 31px 4px 19px 4px;
-}
-.barberton {
-  padding: 20px 0px 6px 0px;
-  width: 160px;
-  font-size: 16px;
-  color: #3d3d3d;
-  display: flex;
-  align-items: flex-end;
-}
-.price {
-  text-decoration: none;
-  color: #46a358;
-}
-.second_block {
-  width: 260px;
-  height: 260px;
-  background-color: #fbfbfb;
-  position: relative;
-  margin-right: 34px;
-  display: flex;
-  flex-direction: column;
-}
-.three_logos {
-  width: 250px;
-  height: 35px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.mini_logo {
-  width: 35px;
-  height: 35px;
-  padding: 0px 15px 0px 0px;
-  margin-top: -35px;
-  margin-left: 8px;
-}
-
-.third_block {
-  width: 260px;
-  height: 260px;
-  background-color: #fbfbfb;
-  position: relative;
-  margin-right: 34px;
-  display: flex;
-  flex-direction: column;
-}
-.african {
-  padding: 238px 0px 6px 0px;
-  width: 250px;
-  font-size: 16px;
-  color: #3d3d3d;
-}
-.flowers_photo {
-  width: 250px;
-  height: 250px;
-  padding: 31px 4px 19px 4px;
-  position: absolute;
-}
-
-.procent {
-  width: 80px;
-  height: 30px;
-  display: flex;
-}
-.dollars {
-  margin-left: 16px;
+  padding: 280px 0px;
 }
