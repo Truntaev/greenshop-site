@@ -3,46 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>GREENSHOP</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main_page_style.css" />
   </head>
+
   <body>
-    <header class="all">
-      <div class="logo">
-        <img class="picture" src="./img/logo.png" alt="greenshop logo" />
-        <span class="central_sections">
-          <a class="info"> <b>Home</b></a>
-          <a class="info">Shop</a>
-          <a class="info">Plant Care</a>
-          <a class="info">Blogs</a>
-        </span>
-        <button class="green_button">
-          <img class="icon" src="./img/logout.png" alt="logoout" />
-          <a class="name_login">Login</a>
-        </button>
+    <header>
+      <div class="header-wrapper">
+        <div class="header-logo">
+          <img src="./img/main_page/header_logo.svg" alt="Logo" />
+        </div>
+        <nav class="nav">
+          <a class="nav-item" href="#">Home</a>
+          <a class="nav-item" href="#">Shop</a>
+          <div class="menu-dd-parent">
+            <a class="nav-item active-page" href="#">Plant Care</a>
+            <ul class="menu-dd">
+              <li>
+                <a href="#">Drainage</a>
+              </li>
+              <li>
+                <a href="#">Fungicides</a>
+              </li>
+              <li>
+                <a href="#">Fertilizer</a>
+              </li>
+              <li>
+                <a href="#">Priming</a>
+                <ul class="menu-dd second">
+                  <li>
+                    <a href="#">Universal</a>
+                  </li>
+                  <li>
+                    <a href="#">For Ficus</a>
+                  </li>
+                  <li>
+                    <a href="#">For Cacti</a>
+                  </li>
+                  <li>
+                    <a href="#">For Citrus</a>
+                  </li>
+                  <li>
+                    <a href="#">For those in bloom</a>
+                  </li>
+                  <li>
+                    <a href="#">For Orchids</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a class="nav-item" href="#">Blogs</a>
+        </nav>
+
+        <div class="login-btn-wrapper">
+          <button class="login-btn">
+            <img src="./img/main_page/login_button_icon.svg" alt="login" />
+            <span>Login</span>
+          </button>
+        </div>
       </div>
     </header>
     <main>
-      <section class="background_greenshop">
-        <div class="text_info">
-          <p class="welcome">Welcome to GreenShop</p>
-          <h1 class="better_planet">LET'S MAKE A BETTER <span>PLANET</span></h1>
-          <p class="about_online_shop">
+      <div class="main-content-wrapper">
+        <div class="left-block">
+          <div class="title">WELCOME TO GREENSHOP</div>
+          <div class="tagline">
+            LET'S MAKE A<br />BETTER <span>PLANET</span>
+          </div>
+          <div class="content-text">
             We are an online plant shop offering a wide range of cheap and
             trendy plants. Use our plants to create an unique Urban Jungle.
             Order your favorite plants!
-          </p>
-          <button class="green_button">SHOP NOW</button>
+          </div>
+          <button class="shop-btn">SHOP NOW</button>
         </div>
-        <div class="flowers">
-          <img src="./img/big_flower.png" alt="big flower" />
+        <div class="right-block">
           <img
-            class="small_flower"
-            src="./img/small_flower.png"
-            alt="small flower"
+            class="right-block-img_big"
+            src="./img/main_page/Plant_big.png"
+            alt="plant"
+          />
+          <img
+            class="right-block-img_small"
+            src="./img/main_page/Plant_big.png"
+            alt="plant"
           />
         </div>
-      </section>
+      </div>
     </main>
   </body>
 </html>
